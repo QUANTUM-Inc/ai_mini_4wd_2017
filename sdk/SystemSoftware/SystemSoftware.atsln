@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "AiModule", "AiModule\AiModule.cproj", "{36055B3D-9D1F-43BC-A8DC-22611B8A4E19}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "motor_driver", "motor_driver\motor_driver.cppproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "xmegaA4U_bootloader", "xmegaA4U_bootloader\xmegaA4U_bootloader.cproj", "{CA43E1E6-D493-418A-8B6D-C685B0B4F11E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36055B3D-9D1F-43BC-A8DC-22611B8A4E19}.Debug|AVR.ActiveCfg = Debug|AVR
+		{36055B3D-9D1F-43BC-A8DC-22611B8A4E19}.Debug|AVR.Build.0 = Debug|AVR
+		{36055B3D-9D1F-43BC-A8DC-22611B8A4E19}.Release|AVR.ActiveCfg = Release|AVR
+		{36055B3D-9D1F-43BC-A8DC-22611B8A4E19}.Release|AVR.Build.0 = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+		{CA43E1E6-D493-418A-8B6D-C685B0B4F11E}.Debug|AVR.ActiveCfg = Debug|AVR
+		{CA43E1E6-D493-418A-8B6D-C685B0B4F11E}.Debug|AVR.Build.0 = Debug|AVR
+		{CA43E1E6-D493-418A-8B6D-C685B0B4F11E}.Release|AVR.ActiveCfg = Release|AVR
+		{CA43E1E6-D493-418A-8B6D-C685B0B4F11E}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
